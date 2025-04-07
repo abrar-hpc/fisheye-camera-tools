@@ -33,7 +33,7 @@ Finally, you can see the acquired images on a sphere using the `projection` modu
 
 ## Usage
 
-For the **acquisition**, make sure you have connected your computer to the camera via its local Wi-Fi. To do so, press the connection button on the side of the camera. When the connection logo appears, connect the computer using the password. The password for the camera is the last 8 digits written at the bottom of the camera. The script will automatically set the correct parameters when you provide the action to perform. The ip address of the camera is `192.168.1.1`.
+For the **acquisition**, make sure you have connected your computer to the camera via its local Wi-Fi. To do so, press the connection button on the side of the camera. When the connection logo appears, connect the computer using the password. The password for the camera is the last 8 digits written at the bottom of the camera. The script will automatically set the correct parameters when you provide the action to perform. The ip address of the camera I used is `192.168.1.1`.
 
 For the **calibration**, make sure you have taken enough pictures of a chessboard with the same lens. Around forty per lens is optimal because the algorithm may consider some images as invalid. The chessboard size must be `(nb_rows - 1, nb_columns - 1)` to avoid any problems.
 
