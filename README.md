@@ -28,7 +28,7 @@ The acquired images are on equirectangle format and are splitted into two images
 
 Then, you can calibrate the two lenses with the `calibration` module and its `main.py` script, i.e., retrieve the **intrinsic** parameters (focal lengths and principal point) and **extrinsic** parameters (distortion coefficients, rotation and translation vectors) from the camera using a sample of images. This module uses an algorithm provided by `OpenCV` based on a chessboard.
 
-Finally, you can see the acquired images on a sphere using the `projection` module and its `sphere.py` script. 
+Finally, you can see the acquired images on a sphere using the `projection` module and its `sphere.py` script. This `projection` module is principally inspired by the code implemented in Matlab available in the `Archive` directory.
 
 
 ## Usage
