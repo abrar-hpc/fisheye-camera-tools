@@ -5,7 +5,7 @@
 
 Some Python tools to acquire images captured by a `Ricoh Theta S` camera and calibrate it. This camera is equipped with two fisheye lenses, allowing it to film in 360°.
 
-![ricoh_theta_s](./assets/ricoh_theta_s.jpg){width="150" height="150" style="display: block; margin: 0 auto"}
+![ricoh_theta_s](./assets/ricoh_theta_s.jpg)
 
 First, you can acquire images from the two lenses with the `acquisition` module and its `main.py` script. It allows you to:
 - Take pictures
