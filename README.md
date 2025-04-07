@@ -18,7 +18,7 @@ In this module, there are many more actions available than the `main.py` script 
 
 The acquired images are on equirectangle format and are splitted into two images corresponding to the two lenses of the camera, so you can work on them individually. 
 
-![equirectangle](assets/equirectangle.jpg){width="80%" height="80%" style="display: block; margin: 0 auto"}
+![equirectangle](assets/equirectangle.jpg)
 
 <div style="width: 80%; display: flex; justify-content: space-between; margin: 0 auto">
     <img src="assets/equirectangle_front.jpg" alt="equirectangle_front" style="width: 48%;">
